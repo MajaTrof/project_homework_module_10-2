@@ -1,0 +1,9 @@
+ {{#each name}}
+    <li class="country-card">
+      <div class="card-header">
+        <img src="{{this.flags.png}}" alt="{{this.name.official}} flag" />
+        <h2 class="country-name">{{this.name.official}}</h2>
+      </div>
+      <div class="card-body">
+        <p><strong>Capital:</strong> {{this.capital}}</p>
+        {{/each}}

@@ -18,3 +18,24 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+.form {
+  align-content: center;
+  background-color:beige;
+}
+
+li,
+a {
+  color: #000000; /* змінити колір на чорний або інший колір, який вам подобається */
+  font-family: Arial, sans-serif; /* змінити шрифт на Arial або інший шрифт, який вам подобається */
+  font-size: 22px; /* змінити розмір шрифту на 16 пікселів або інший розмір, який вам подобається */
+  list-style: none;
+}
+
+.container {
+  padding: 30px;
+}
+
+button {
+  margin: 20px;
+}
